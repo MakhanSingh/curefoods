@@ -1,0 +1,192 @@
+@media (max-width:1300px) {
+    .ms_tabs figure {
+        width: 110px;
+    }
+}
+
+@media (max-width:1250px) {
+    .ms_tabs figure {
+        width: 100px;
+    }
+}
+
+@media (max-width:1100px) {
+    .ms-main-content {
+        padding-left: 300px;
+    }
+    .ms-hero-sub-box {
+        top: 30px;
+    }
+    .ms_tabs figure {
+        width: 80px;
+    }
+}
+
+@media (max-width:900px) {
+    h2 {
+        font-size: 46px;
+    }
+    .ms-sidebar-nav {
+        max-width: 200px;
+        min-width: 200px;
+        padding: 30px 20px;
+    }
+    .ms-main-content {
+        padding-left: 200px;
+    }
+
+    #fp-nav {
+        display: none;
+    }
+}
+
+@media (max-width:750px) {
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size:18px;
+    }
+    .ms-sidebar-nav {
+        z-index: 9;
+        position: absolute;
+        max-width: 100%;
+        min-width: 100%;
+        display: flex;
+        height: auto;
+        padding:10px;
+    }
+    /* .ms-navmenu {
+        padding:10px 10px 0;
+    } */
+    .ms-sidebar-nav img {
+        width: 180px;
+    }
+    .ms-main-content {
+        padding-left: 0;
+    }
+    .menu_toggle {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        cursor: pointer;
+        display: block;
+    }
+    .menu_toggle .hamburger {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .menu_toggle .hamburger-cross {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        display: block;
+    }
+    .menu_toggle .hamburger span {
+        width: 0%;
+        height: 2px;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 4px 0;
+        display: block;
+        background: #000;
+        border-radius: 3px;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+    .menu_toggle .hamburger span:nth-child(1) {
+        -webkit-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+    .collapsed .menu_toggle .hamburger span:nth-child(1) {
+        -webkit-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        transition-delay: .3s;
+    }
+    .collapsed .menu_toggle .hamburger span {
+        width: 100%;
+    }
+    .collapsed .menu_toggle .hamburger span:nth-child(2) {
+        -webkit-transition-delay: .4s;
+        -o-transition-delay: .4s;
+        transition-delay: .4s;
+    }
+    .menu_toggle .hamburger span:nth-child(2) {
+        -webkit-transition-delay: .125s;
+        -o-transition-delay: .125s;
+        transition-delay: .125s;
+    }
+    .collapsed .menu_toggle .hamburger span:nth-child(3) {
+        -webkit-transition-delay: .5s;
+        -o-transition-delay: .5s;
+        transition-delay: .5s;
+    }
+    .menu_toggle .hamburger span:nth-child(3) {
+        -webkit-transition-delay: .2s;
+        -o-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+    .collapsed .menu_toggle .hamburger-cross span:nth-child(1) {
+        height: 0%;
+        -webkit-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+    .menu_toggle .hamburger-cross span:nth-child(1) {
+        height: 100%;
+        width: 2px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        -webkit-transition-delay: .3s;
+        -o-transition-delay: .3s;
+        transition-delay: .3s;
+    }
+    .menu_toggle .hamburger-cross span {
+        display: block;
+        background: #000;
+        border-radius: 3px;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+    .collapsed .menu_toggle .hamburger-cross span:nth-child(2) {
+        width: 0%;
+        -webkit-transition-delay: .2s;
+        -o-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+    .menu_toggle .hamburger-cross span:nth-child(2) {
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        -webkit-transition-delay: .4s;
+        -o-transition-delay: .4s;
+        transition-delay: .4s;
+    }
+    .ms-main-content {
+        padding: 120px 0 60px;
+    }
+    .ms-hero-box, .ms-hero-sub-box {
+        padding: 25px 20px;
+    }
+}
+
+@media (max-width:350px) {
+    h2 {
+        font-size: 28px;
+    }
+}

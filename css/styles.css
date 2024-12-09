@@ -1,0 +1,337 @@
+/*----- Global CSS -----*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: #000002;
+}
+button:focus {
+    outline: none;
+}
+h2, h4 {
+    font-family: 'League Spartan';
+}
+h2, h3, h4, h5, h6, p {
+    line-height: 1.4;
+}
+h2 {
+    font-size: 56px;
+    letter-spacing: 2.6px;
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Museo Sans Rounded 700';
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+    font-family: 'Museo Sans Rounded 500';
+}
+h6 {
+    font-size: 14px;
+    font-family: 'Museo Sans Rounded 500';
+}
+p {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: 'Museo Sans Rounded 500';
+    line-height: 1.5;
+}
+.museo-font-weight-100 {
+    font-family: 'Museo Sans Rounded 100';
+}
+.museo-font-weight-500 {
+    font-family: 'Museo Sans Rounded 500';
+}
+.museo-font-weight-700 {
+    font-family: 'Museo Sans Rounded 700';
+}
+.ms-site-color {
+    color: #FC883E;
+}
+.ms-site-color-second {
+    color: #052364;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.ms-btn {
+    background: #052364;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 30px;
+    padding:9px 22px;
+    transition: 0.3s all linear;
+}
+.ms-btn:hover {
+    background: #FC883E;
+    color: #fff;
+    transform: translateY(-5px);
+}
+.ms-sidebar-nav {
+    background:#fff;
+    max-width: 300px;
+    min-width: 300px;
+    height: 100%;
+    position: fixed;
+    padding: 45px 20px;
+    z-index: 9;
+}
+.ms-navmenu {
+    list-style-type: none;
+    padding-left: 30px;
+}
+.ms-navmenu li {
+    margin-bottom: 18px;
+    position: relative;
+}
+.ms-navmenu li a {
+    color:rgba(0, 0, 2, 0.5);
+    font-weight: 500;
+    transition: 0.3s all linear;
+    font-family: 'Museo Sans Rounded 700';
+    font-size: 18px;
+}
+.ms-navmenu li a.active,
+.ms-navmenu li:hover a {
+    color: #052364;
+}
+@media (min-width:751px) {
+    .ms-navmenu li a:before {
+        transition: 0.3s all linear;
+        background: transparent;
+        content: '';
+        width: 8px;
+        height: 8px;
+        left: -16px;
+        top: 35%;
+        border-radius: 50%;
+        position: absolute;
+    }
+}
+.ms-navmenu li a.active:before,
+.ms-navmenu li:hover a:before {
+    background: #052364;
+}
+.ms-social-links ul {
+    list-style: none;
+    padding-left: 25px;
+    position: absolute;
+    bottom: 30px;
+}
+.ms-social-links ul li a {
+    color: #B8B8B8;
+    transition: 0.3s all linear;
+    font-size: 35px;
+}
+.ms-social-links ul li a:hover {
+    color: #052364;
+}
+.ms-main-content {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/bnr.jpg') center;
+    background-size: cover;
+    padding-left: 320px;
+    overflow: hidden;
+}
+.ms-hero-box, .ms-hero-sub-box {
+    background-image: linear-gradient(to right, #fff, #F0F4E9);
+    padding:35px 35px 40px;
+    margin: 30px 0;
+}
+.ms-hero-sub-box {
+    position: relative;
+    top: 100px;
+}
+.ms-home-carousel .owl-dots .owl-dot.active span {
+    background: #052364 !important;
+}
+
+/*----- Career Page CSS -----*/
+.ms-career-page {
+    background: url('../images/careers-bg.jpg') center;
+    background-size: cover;
+}
+
+/*----- Our Ways Page -----*/
+.ms-ways-box {
+    margin-bottom: 30px;
+}
+.ms-ways-box .ms-ways-number {
+    font-family: 'League Spartan';
+    font-size: 36px;
+    letter-spacing: 1.6px;
+}
+
+/*----- Contact Us Page -----*/
+.ms-contact-form label {
+    font-family: 'Museo Sans Rounded 500';
+    font-size: 17px;
+}
+.ms-contact-form .form-control {
+    background:transparent;
+    border-radius: 4px;
+    border: 1px solid #C6C6C6;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+.ms-contact-form .form-control:focus {
+    outline: none;
+    border: 1px solid #FC883E;
+    box-shadow: none;
+}
+.ms-contact-form ::placeholder {
+    color: rgba(0, 0, 2, 0.5);
+    font-size: 16px;
+    font-family: 'Museo Sans Rounded 300';
+}
+
+/*----- Team Page -----*/
+.ms-team-box {
+    margin-bottom: 30px;
+}
+
+/*----- News Page -----*/
+.ms-news-box a {
+    color: #000002;
+}
+.ms-news-box .ms-meta {
+    font-size: 13px;
+    font-family: 'Museo Sans Rounded 500';
+    letter-spacing: 1px;
+    margin: 20px 0 5px;
+}
+.ms-news-box h5 {
+    font-size: 20px;
+    font-family: 'Museo Sans Rounded 700';
+}
+.ms-news-box .ms-description {
+    font-size: 16px;
+    color: rgba(0, 0, 2, 0.8);
+    line-height: 1.55;
+}
+.ms-news-box .ms-news-img {
+    object-fit: cover;
+    height: 100%;
+}
+.ms-news-box .ms-read-more-link {
+    color: #FC883E;
+    font-size: 14px;
+    font-family: 'Museo Sans Rounded 700';
+    transition: 0.3s all linear;
+}
+.ms-news-box .ms-read-more-link:hover {
+    color: #052364;
+}
+
+/*----- Our Brands Page -----*/
+#brands_carousel .fp-tableCell {
+    height: 100% !important;
+}
+.ms-brands-page {
+    padding-bottom: 60px;
+    background:#fff;
+}
+.ms-carousel-content img {
+    width: 90px;
+}
+.ms-carousel-content p {
+    font-size: 17px;
+}
+.carousel .carousel-indicators {
+    all: unset;
+    padding-top: 43px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.carousel .carousel-indicators li {
+    background: #B7B7B7;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel .carousel-indicators li.active {
+    height: 9px;
+    width: 9px;
+    background: #052465;
+}
+.ms_tabs figure {
+    width: 130px;
+    background:#EBEBEB;
+    padding: 25px;
+    margin: 5px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+.ms_tabs figure img {
+    filter: invert(0.4);
+    -webkit-filter: invert(0.4);
+}
+.ms_tabs figure:hover, .ms_tabs figure.active {
+    background:#052465;
+}
+.ms_tabs figure:hover img, .ms_tabs figure.active img {
+    filter: invert(0);
+    -webkit-filter: invert(0);
+}
+.ms_tabs div:first-child figure:nth-child(2), .ms_tabs div:nth-child(3) figure:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ms_tabs div:nth-child(2), .ms_tabs div:nth-child(3), .ms_tabs div:nth-child(4) {
+    margin-top: -30px;
+}
+.ms_tabs div:nth-child(2) figure:first-child, .ms_tabs div:nth-child(4) figure:first-child {
+    margin-right: 23px;
+}
+.ms_tabs div:nth-child(2) figure:last-child, .ms_tabs div:nth-child(4) figure:last-child {
+    margin-left: 23px;
+}
+.testimonial button {
+    width: 25px;
+    height: 25px;
+    background: #B7B7B7;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+#fp-nav ul li .fp-tooltip {
+    opacity: 1;
+    overflow: visible;
+}
+#fp-nav ul li .fp-tooltip {
+    color: rgba(0, 0, 2, 0.5);
+    font-weight: 500;
+    transition: 0.3s all linear;
+    font-family: 'Museo Sans Rounded 700';
+    font-size: 18px;
+}
+#fp-nav ul li {
+    padding-bottom:35px;
+}
+#fp-nav ul li .fp-tooltip {
+    top:-12px;
+    left: 23px !important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #052364;
+}
+#fp-nav ul li a.active ~ .fp-tooltip {
+    color: #052364;
+}
+
+/* #fullpage {
+    display: none;
+} */
+
+
+
